@@ -22,4 +22,4 @@ tracks:
     ros_distro: kinetic
     vcs_type: git
     vcs_uri: https://github.com/UbiquityRobotics/magni_robot.git
-    version: :{auto}
+    version: :{ask}
