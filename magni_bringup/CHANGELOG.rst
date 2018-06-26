@@ -2,13 +2,15 @@
 Changelog for package magni_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.6 (2018-06-16)
+0.3.0 (2018-06-25)
 ------------------
-* new pid params
-* Contributors: Rohan Agrawal
-
-0.2.5 (2018-05-19)
-------------------
+* Launch sonars if 'installed', but not by default (`#58 <https://github.com/UbiquityRobotics/magni_robot/issues/58>`_)
+* Support getting robot configuration from a file in etc  (`#57 <https://github.com/UbiquityRobotics/magni_robot/issues/57>`_)
+* Refactor Launch Files (and fix `#50 <https://github.com/UbiquityRobotics/magni_robot/issues/50>`_)
+* launch the core launch from a python script that can do something smart
+* start to re-organize the launch files, with base.launch being the boot up launch
+  Also move the rosbridge stuff out to magni_teleop to be more modular.
+* Contributors: Jim Vaughan, Rohan Agrawal
 
 0.2.4 (2017-12-23)
 ------------------
