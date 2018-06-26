@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>magni_nav</name>
-  <version>0.2.6</version>
+  <version>0.3.0</version>
   <description>The magni_nav package</description>
 
   <maintainer email="send2arohan@gmail.com">Rohan Agrawal</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>fiducial_slam</exec_depend>
   <exec_depend>aruco_detect</exec_depend>
   <exec_depend>move_basic</exec_depend>
   <exec_depend>move_base</exec_depend>
