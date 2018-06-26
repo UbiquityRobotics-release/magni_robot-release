@@ -1,3 +1,33 @@
+## magni_robot (kinetic) - 0.3.0-0
+
+The packages in the `magni_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release magni_robot -t kinetic -r kinetic` on `Tue, 26 Jun 2018 03:31:59 -0000`
+
+These packages were released:
+- `magni_bringup`
+- `magni_demos`
+- `magni_description`
+- `magni_nav`
+- `magni_robot`
+- `magni_teleop`
+- `magni_viz`
+
+Version of package(s) in repository `magni_robot`:
+
+- upstream repository: https://github.com/UbiquityRobotics/magni_robot.git
+- release repository: https://github.com/UbiquityRobotics-release/magni_robot-release.git
+- rosdistro version: `0.2.5-0`
+- old version: `0.2.6-0`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## magni_robot (kinetic) - 0.2.6-0
 
 The packages in the `magni_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release magni_robot -r kinetic -t kinetic` on `Sun, 17 Jun 2018 04:19:32 -0000`
