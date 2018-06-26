@@ -1,0 +1,12 @@
+Source: ros-kinetic-magni-viz
+Section: misc
+Priority: extra
+Maintainer: Rohan Agrawal <send2arohan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-magni-viz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rviz
+Description: The magni_viz package
