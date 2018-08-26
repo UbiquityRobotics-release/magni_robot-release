@@ -1,0 +1,33 @@
+ros-kinetic-magni-viz (0.4.1-0xenial) xenial; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sun, 26 Aug 2018 07:00:00 -0000
+
+ros-kinetic-magni-viz (0.4.0-0xenial) xenial; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sun, 26 Aug 2018 07:00:00 -0000
+
+ros-kinetic-magni-viz (0.3.2-0xenial) xenial; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Wed, 27 Jun 2018 07:00:00 -0000
+
+ros-kinetic-magni-viz (0.3.1-0xenial) xenial; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Tue, 26 Jun 2018 07:00:00 -0000
+
+ros-kinetic-magni-viz (0.3.0-0xenial) xenial; urgency=high
+
+  * Add magni_viz package (#49 <https://github.com/UbiquityRobotics/magni_robot/issues/49>)
+    * Add magni_viz
+  * Contributors: Jim Vaughan
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Mon, 25 Jun 2018 07:00:00 -0000
+
+
