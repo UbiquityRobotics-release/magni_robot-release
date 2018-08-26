@@ -2,6 +2,11 @@
 Changelog for package magni_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.2 (2018-08-26)
+------------------
+* update postinst
+* Contributors: Rohan Agrawal
+
 0.4.1 (2018-08-26)
 ------------------
 * made postinst executable
