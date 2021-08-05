@@ -2,6 +2,17 @@
 Changelog for package magni_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2021-07-30)
+------------------
+* Fixed dependancies for Focal/Noetic
+* Readme update
+* Change shebang to python3 in launch_core
+* Moved extrinsics yamls from param/ to extrinsics/
+* Complete rewrite of launch_core
+* Use base_footprint for odometery, aruco, and move_base
+* increase default acceleration limit related to `#148 <https://github.com/UbiquityRobotics/magni_robot/issues/148>`_
+* Contributors: Janez, Janez Cimerman, Jim Vaughan, Mark Johnston, MoffKalast, Rohan Agrawal, Teodor, Vid Rijavec
+
 0.4.3 (2018-08-30)
 ------------------
 

@@ -1,12 +1,11 @@
 ubiquity_motor:
-  serial_port: "/dev/ttyAMA0"
-  serial_baud: 38400
   controller_loop_rate: 20
-  serial_loop_rate: 200
   pid_proportional: 5000
-  pid_integral: 0
-  pid_derivative: 0
+  pid_integral: 7
+  pid_derivative: -110
   pid_denominator: 1000
+  pid_moving_buffer_size: 70
+  pid_velocity: 15000
 
 ubiquity_joint_publisher:
   type: "joint_state_controller/JointStateController"
@@ -27,7 +26,7 @@ ubiquity_velocity_controller:
   wheel_radius : 0.1015
 
 
-  base_frame_id: base_link
+  base_frame_id: base_footprint
 
   # Wheel separation and radius multipliers
   wheel_separation_multiplier: 1.0 # default: 1.0
@@ -37,13 +36,13 @@ ubiquity_velocity_controller:
   # Whenever a min_* is unspecified, default to -max_*
   linear:
     x:
-      has_velocity_limits    : false
+      has_velocity_limits    : true
       max_velocity           : 1.0   # m/s
       has_acceleration_limits: true
-      max_acceleration       : 0.5   # m/s^2
+      max_acceleration       : 1.1   # m/s^2
   angular:
     z:
-      has_velocity_limits    : false
+      has_velocity_limits    : true
       max_velocity           : 2.0   # rad/s
       has_acceleration_limits: true
       max_acceleration       : 5.0   # rad/s^2

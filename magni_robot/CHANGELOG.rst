@@ -2,6 +2,12 @@
 Changelog for package magni_robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2021-07-30)
+------------------
+* Fixed dependancies for Focal/Noetic
+* Added license files to all magni packages
+* Contributors: Janez Cimerman, Rohan Agrawal
+
 0.4.3 (2018-08-30)
 ------------------
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>magni_bringup</name>
-  <version>0.4.3</version>
+  <version>0.5.0</version>
   <description>The magni_bringup package</description>
 
   <maintainer email="send2arohan@gmail.com">Rohan Agrawal</maintainer>
@@ -15,6 +15,9 @@
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>joint_state_controller</exec_depend>
   <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>oled_display_node</exec_depend>
+  <exec_depend>python3-smbus</exec_depend>
+  <exec_depend>diagnostic_aggregator</exec_depend>
 
   <!-- Force chrony to be installed -->
   <exec_depend>chrony</exec_depend>
