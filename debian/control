@@ -1,0 +1,12 @@
+Source: ros-noetic-magni-bringup
+Section: misc
+Priority: optional
+Maintainer: Rohan Agrawal <send2arohan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-magni-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, python3-smbus, ros-noetic-controller-manager, ros-noetic-diagnostic-aggregator, ros-noetic-diff-drive-controller, ros-noetic-joint-state-controller, ros-noetic-magni-description, ros-noetic-oled-display-node, ros-noetic-robot-state-publisher, ros-noetic-ubiquity-motor
+Description: The magni_bringup package
