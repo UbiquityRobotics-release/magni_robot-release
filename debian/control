@@ -1,0 +1,12 @@
+Source: ros-noetic-magni-nav
+Section: misc
+Priority: optional
+Maintainer: Rohan Agrawal <send2arohan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-magni-nav
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-aruco-detect, ros-noetic-fiducial-slam, ros-noetic-move-base, ros-noetic-move-basic
+Description: The magni_nav package
