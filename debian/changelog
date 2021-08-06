@@ -1,0 +1,15 @@
+ros-noetic-magni-desktop (0.5.1-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Thu, 05 Aug 2021 22:00:00 -0000
+
+ros-noetic-magni-desktop (0.5.0-1focal) focal; urgency=high
+
+  * Added license files to all magni packages
+  * added meta package for desktop tools
+  * Contributors: Janez Cimerman, Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Thu, 29 Jul 2021 22:00:00 -0000
+
+
