@@ -2,6 +2,9 @@
 Changelog for package magni_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.1 (2021-08-06)
+------------------
+
 0.5.0 (2021-07-30)
 ------------------
 * Moved extrinsics yamls from param/ to extrinsics/
