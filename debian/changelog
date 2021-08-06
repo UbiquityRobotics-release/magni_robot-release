@@ -1,0 +1,121 @@
+ros-noetic-magni-demos (0.5.1-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Thu, 05 Aug 2021 22:00:00 -0000
+
+ros-noetic-magni-demos (0.5.0-1focal) focal; urgency=high
+
+  * Pass in fid len (#116 <https://github.com/UbiquityRobotics/magni_robot/issues/116>)
+  * Added license files to all magni packages
+  * Contributors: AGregorc, Janez Cimerman, MoffKalast, Rohan Agrawal, Teodor
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Thu, 29 Jul 2021 22:00:00 -0000
+
+ros-noetic-magni-demos (0.4.3-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Wed, 29 Aug 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.4.2-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sat, 25 Aug 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.4.1-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sat, 25 Aug 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.4.0-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sat, 25 Aug 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.3.2-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Tue, 26 Jun 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.3.1-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Mon, 25 Jun 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.3.0-1focal) focal; urgency=high
+
+  * Add dnn_rotate demo (#52 <https://github.com/UbiquityRobotics/magni_robot/issues/52>)
+  * Merge pull request #51 <https://github.com/UbiquityRobotics/magni_robot/issues/51> from rohbotics/launch_file_refactor
+    Refactor Launch Files (and fix #50 <https://github.com/UbiquityRobotics/magni_robot/issues/50>)
+  * make joystick and teleop launch aliaises again
+  * cleanup other demo launch files
+  * remove old demo launches
+  * renamed speech commands to simple_navigation
+  * remove roshub from default launch, make joystick a symlink again
+  * added roshub stuff
+  * Contributors: Jim Vaughan, Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sun, 24 Jun 2018 22:00:00 -0000
+
+ros-noetic-magni-demos (0.2.4-1focal) focal; urgency=high
+
+
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Fri, 22 Dec 2017 23:00:00 -0000
+
+ros-noetic-magni-demos (0.2.3-1focal) focal; urgency=high
+
+  * Only exec_depend to avoid pulling in unnecessary dependencies at build-time   (#46 <https://github.com/UbiquityRobotics/magni_robot/issues/46>)
+    * only exec_depend, cleanup package.xmls
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Fri, 22 Dec 2017 23:00:00 -0000
+
+ros-noetic-magni-demos (0.2.2-1focal) focal; urgency=high
+
+  * Have both ssl and non-ssl version of rosbridge (#39 <https://github.com/UbiquityRobotics/magni_robot/issues/39>)
+    * have both ssl and non-ssl version of rosbridge
+    * added tf2 web publisher to launch file
+    * fix the base launch being commented out
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Thu, 21 Dec 2017 23:00:00 -0000
+
+ros-noetic-magni-demos (0.2.1-1focal) focal; urgency=high
+
+  * Add launch file for fiducial_follow (#40 <https://github.com/UbiquityRobotics/magni_robot/issues/40>)
+    * Add launch file for fiducial_follow
+    * Update camera for front facing
+    * Use low res image for faster tracking
+  * Contributors: Jim Vaughan
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Fri, 27 Oct 2017 22:00:00 -0000
+
+ros-noetic-magni-demos (0.2.0-1focal) focal; urgency=high
+
+  * add teleop launch that starts rosbridge. replaces joystick launch
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Fri, 18 Aug 2017 22:00:00 -0000
+
+ros-noetic-magni-demos (0.1.1-1focal) focal; urgency=high
+
+  * Install launch/param dirs
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Mon, 03 Jul 2017 22:00:00 -0000
+
+ros-noetic-magni-demos (0.1.0-1focal) focal; urgency=high
+
+  * Initial release
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Fri, 16 Jun 2017 22:00:00 -0000
+
+
