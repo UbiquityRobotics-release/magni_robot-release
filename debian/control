@@ -1,0 +1,12 @@
+Source: ros-noetic-magni-desktop
+Section: misc
+Priority: optional
+Maintainer: Rohan Agrawal <send2arohan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-magni-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-magni-description, ros-noetic-magni-gazebo, ros-noetic-magni-teleop, ros-noetic-magni-viz
+Description: Meta package for all the desktop side utilities for magni
