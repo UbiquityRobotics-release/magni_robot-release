@@ -1,3 +1,35 @@
+## magni_robot (noetic) - 0.5.0-2
+
+The packages in the `magni_robot` repository were released into the `noetic` distro by running `/usr/bin/bloom-release magni_robot --rosdistro noetic --new-track --no-pull-request` on `Fri, 06 Aug 2021 09:52:48 -0000`
+
+These packages were released:
+- `magni_bringup`
+- `magni_demos`
+- `magni_description`
+- `magni_desktop`
+- `magni_gazebo`
+- `magni_nav`
+- `magni_robot`
+- `magni_teleop`
+- `magni_viz`
+
+Version of package(s) in repository `magni_robot`:
+
+- upstream repository: https://github.com/UbiquityRobotics/magni_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.5.0-1`
+- new version: `0.5.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## magni_robot (noetic) - 0.5.0-1
 
 The packages in the `magni_robot` repository were released into the `noetic` distro by running `/usr/bin/bloom-release magni_robot --rosdistro noetic --new-track --no-pull-request` on `Thu, 05 Aug 2021 06:16:50 -0000`
