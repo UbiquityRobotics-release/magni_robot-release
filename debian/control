@@ -1,0 +1,12 @@
+Source: ros-noetic-magni-gazebo
+Section: misc
+Priority: optional
+Maintainer: Rohan Agrawal <send2arohan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-magni-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-controller-manager, ros-noetic-effort-controllers, ros-noetic-gazebo-ros, ros-noetic-gazebo-ros-control, ros-noetic-joint-state-controller, ros-noetic-magni-description, ros-noetic-robot-state-publisher, ros-noetic-rostopic
+Description: The magni_gazebo package
